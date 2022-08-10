@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Finder</title>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            gap:10px;
+            border: 1px solid lightgrey;
+        }
+
+
+        form > input,label,button{
+            border: 1px solid lightgrey;
+        }
+        button:hover{
+            border: 1px solid dodgerblue;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+    <form action="/finder" method="post">
+        <label for="finder">찾고자하는 이름의 키워드를 입력하세요</label>
+        <input type="text" id="finder" name="finder" required>
+        <button type="submit">제출</button>
+    </form>
+    </div>
+</body>
+</html>
