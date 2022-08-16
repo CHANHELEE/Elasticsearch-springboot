@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
 @Repository
-public interface PersonRepository extends ElasticsearchRepository<Person, String>, SearchOperations {
+public interface PersonRepository extends ElasticsearchRepository<Person, String> {
 
 
 

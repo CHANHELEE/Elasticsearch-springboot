@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api/person")
+@RequestMapping("/api/vehicle")
 public class VehicleController {
     private final IndexService service;
 
